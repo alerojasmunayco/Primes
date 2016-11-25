@@ -1,0 +1,303 @@
+.portfolio{
+    background: #f4f4f4;
+}
+.portfolio-items,
+.portfolio-filter {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+.portfolio-filter > li {
+    display: inline-block;
+}
+.portfolio-items > li {
+    float: left;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.portfolio-items.col-2 > li {
+    width: 50%;
+    padding: 0 20px;
+}
+.portfolio-items.col-3 > li {
+    width: 33%;
+}
+.portfolio-items.col-4 > li {
+    width: 25%;
+}
+.portfolio-items.col-5 > li {
+    width: 20%;
+}
+.portfolio-items.col-6 > li {
+    width: 16%;
+}
+.portfolio-item {
+    padding: 0;
+    margin: 0;
+}
+.portfolio-item .item-inner {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px 10px 0;
+    margin: 0 20px 20px 0;
+    position: relative;
+    -o-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.portfolio-item img {
+    width: 100%;
+}
+.portfolio-item h5 {
+    background: #fff;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c3e50;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.portfolio-filter .special-flex div {
+    margin: auto 10px;
+}
+
+
+.cbp-l-filters-work .cbp-filter-item:hover {
+    /* @editable properties */
+    color: #fff;
+    background: #009ca8;
+}
+
+.cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background: #009ca8;
+    color: #fff;
+    cursor: default; }
+
+.cbp-l-filters-work .cbp-filter-item {
+    /* @editable properties */
+    background-color: #FFFFFF;
+    color: #323A45;
+    cursor: pointer;
+    font: 600 16px/38px "Dosis", sans-serif;
+    margin: 10px 5px 0 0;
+    overflow: visible;
+    padding: 0 16px;
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+.cbp-l-filters-work .cbp-filter-item:hover {
+    /* @editable properties */
+    color: #fff;
+    background: #009ca8;
+}
+
+.cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background: #009ca8;
+    color: #fff;
+    cursor: default; }
+
+.cbp-l-filters-work .cbp-filter-counter {
+    /* @editable properties */
+    font: 600 16px/38px "Dosis", sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-left: 8px; }
+
+.c-panel{
+    width: 94%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*.portfolio-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+.portfolio-item .overlay .preview {
+    position: relative;
+    top: 50%;
+    display: inline-block;
+    margin-top: -20px;
+}
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}*/
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+#pricing-table .plan {
+    border-radius: 4px;
+    list-style: none;
+    margin: 0 0 20px;
+    background: #3498db;
+    text-align: center;
+    padding: 30px 0;
+}
+#pricing-table .plan li {
+    padding: 5px 0;
+    color: #fff;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .5s linear;
+    transition:all .5s linear;
+}
+.hovereffect:hover img {
+    -ms-transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+}
+.btnFilter{
+    background-color: #FFFFFF!important;
+    border: 1px solid #fff;
+    color: #323A45!important;
+    cursor: pointer;
+    font: 600 16px/38px "Dosis", sans-serif;
+    margin: 10px 5px 0 0;
+    overflow: visible;
+    padding: 0 16px;
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+.btnFilter.active,.btnFilter:hover{
+    color: #fff!important;
+    background: #009ca8!important;
+    border:1px solid #009ca8!important;
+}
+.portfolio h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #555;
+    line-height: 36px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.portfolio-p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #888;
+}
+
+@media screen and (max-width: 765px){
+    .portfolio-items > li{
+        right: 0;
+        margin: 10px;
+    }
+    .portfolio-filter > li {
+        display: inline-block;
+        margin: auto;
+    }
+    .item-inner{
+        width: 90%;
+        margin: auto;
+    }
+    .portfolio-items, .portfolio-filter {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .portfolio-items.col-2 > li {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+
